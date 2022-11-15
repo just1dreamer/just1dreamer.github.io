@@ -5,17 +5,18 @@
 <title>Hejőpapi vendégház</title>
 <link rel="stylesheet" href="style.css">
 <script src="menu.js"></script>
+<script src="clock.js"></script>
 </head>
 
-<body>
+<body onLoad="startTime()">
 
 
 	<table>
 	
 		<tr id="logo">
-			<img src="mezotermekek.jpg" height="150px">
-			<img src="vendeghaz.jpg" width="900px" height="150px">
-			<img src="cimer.jpg" height="150px">
+		<img src="mezotermekek.jpg" height="150px">
+		<img src="vendeghaz.jpg" width="900px" height="150px">
+		<img src="cimer.jpg" height="150px">
 		</tr>
 		<tr id="menu">
 			<td class="menu-item"><a href="#" id="menu-home" onClick="showhome()">Főoldal</a></td>
@@ -40,9 +41,10 @@
 				</div>
 			</td>
 		</tr>
-	
+		<tr><div id="txt"></div></tr>
 	</table>
-
+	
+	
 
 </body>
 
