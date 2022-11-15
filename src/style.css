@@ -1,0 +1,62 @@
+body
+{
+	
+	
+	text-align:center;
+}
+div
+{
+	
+}
+table
+{
+	
+	margin-left:12%;
+	
+}
+tr,td
+{
+	width:33%;
+	border: 1px solid
+}
+.menu-item
+{
+	font-size:20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	height:30px;
+}
+#content-home
+{
+	display:block;
+}
+#content-foglalas
+{
+	display:none;
+}
+#content-rolunk
+{
+	display:none;
+}
+#txt
+{
+	font-size:20px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+#main
+{
+	float:left;
+	width:50%;
+}
+#images-left
+{
+	width:22%;
+	float:left;
+	
+	height:400px
+}
+#images-right
+{
+	width:22%;
+	float:left;
+	
+}
